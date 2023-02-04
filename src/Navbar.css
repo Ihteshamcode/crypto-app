@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Source Code Pro', monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #26272b;
+    color: #f4f4f4;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.icon{
+    font-size: 2rem;
+    margin-right: 6px;
+    color: blueviolet !important;
+    
+}
+h1{
+    color: blueviolet;
+
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+}
+.coin{
+    margin-left: -4rem;
+}
+.coin-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 60px;
+    align-items: center;
+}
+.coin-row:hover{
+    transform: scale(1.04);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+img{
+    height: 40px;
+    margin-right: 8px;
+    width: auto;
+}
+.img-symbol{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 920px) {
+  * {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 821px) {
+  * {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hide{
+    display: none;
+  }
+}
